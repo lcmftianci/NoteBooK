@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <Button
+        android:textColor="#ffffffff"
+        android:id="@+id/topButton"
+        android:background="@drawable/topbutton"
+        android:paddingRight="100.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:text="新的事件" />
+    
+    <Button android:textColor="#ffffffff"
+        android:id="@+id/number"
+        android:background="@drawable/number"
+        android:layout_width="55.0dip"
+        android:layout_height="55.0dip"
+        android:layout_marginRight="17.0dip"
+        android:layout_alignRight="@id/topButton"
+        android:layout_alignParentRight="true" />
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="446.0dip"
+        android:listSelector="#00000000"
+        android:layout_below="@id/topButton" />
+</RelativeLayout>

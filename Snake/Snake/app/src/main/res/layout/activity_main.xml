@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.snake.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textSize="40sp"
+        android:text="美图秀秀" />
+
+    <Button
+        android:text="PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnPrimaryColor"/>
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
